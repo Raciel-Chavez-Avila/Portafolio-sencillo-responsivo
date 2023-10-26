@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio web</title>
+
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <!--header-->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.png" alt="" class="img-fluid">
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link">Inicio</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">Acerca de</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">Sobre mí</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link">Portafolio</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#services" class="menu_link">Servicios</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contacto</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>
+    </header>
+
+    <main>
+        <!-- inicio section -->
+        <section class="hero section" id="hero">
+            <div class="hero_container container grid">
+                <div class="hero_content">
+                    <h4>Hi there,</h4>
+                    <h1>I'm
+                        <span class="typed" data-typed-items="Designer, Developer, Freelancer"></span>
+                    </h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, voluptas.
+                    </p>
+                    <div class="hero_social">
+                        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    </div>
+                    <a href="#contact" class="btn">
+                        Leer más...
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="hero_img">
+                    <img src="assets/img/hero.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!-- acerca de section -->
+        <section class="about section" id="about">
+            <h2 class="section_title">Acerca de</h2>
+
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="assets/img/about.png" alt="">
+                </div>
+                <div class="about_content">
+                    <h1>Desarrollo web y diseño digital</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Animi iste a assumenda sint deserunt unde voluptates quia, 
+                        vitae accusamus provident?</p>
+                        <div class="about_info">
+                            <div>
+                                <span class="number">10</span>
+                                <br>
+                                <span class="text">Proyectos <br>terminados</span>
+                            </div>
+                            <div>
+                                <span class="number">50</span>
+                                <br>
+                                <span class="text">Opiniones <br>positivos</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sobre mi section -->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Acerca de mí</h2>
+
+            <div class="resume_container container grid">
+                <div class="resume_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current">Educación</a>
+                        </li>
+                        <li>
+                            <a href="#page-2">Experiencia</a>
+                        </li>
+                        <li>
+                            <a href="#page-3">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#page-4">Cursos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_content">
+                    <div id="page-1" class="page one">
+                        <div class="page_heading">Educación</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">20XX-20XX</span>
+                                <h4>Informática básica</h4>
+                                <span class="position">Preparatoria</span>
+                                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dolorum rem officia consequuntur omnis laborum libero.</P>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">20XX-20XX</span>
+                                <h4>Desarrollo web</h4>
+                                <span class="position">Universidad</span>
+                                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dolorum rem officia consequuntur omnis laborum libero.</P>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">20XX-20XX</span>
+                                <h4>Inteligencia Artificial</h4>
+                                <span class="position">Maestria</span>
+                                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dolorum rem officia consequuntur omnis laborum libero.</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-2" class="page two">
+                        <div class="page_heading">Experiencia</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">20XX-20XX</span>
+                                <h4>Web developer</h4>
+                                <span class="position">Empresa xxx</span>
+                                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dolorum rem officia consequuntur omnis laborum libero.</P>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">20XX-20XX</span>
+                                <h4>Backend developer</h4>
+                                <span class="position">Empresa xxx</span>
+                                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dolorum rem officia consequuntur omnis laborum libero.</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-3" class="page three">
+                        <div class="page_heading">Habilidades</div>
+                        <div class="progressBoxs grid">
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>HTML5</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>CSS3</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Javascript</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>JQuery</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>PHP</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>MySQL</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Woordpress</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-4" class="page four">
+                        <div class="page_heading">Cursos</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">20XX-20XX</span>
+                                <h4>Ingles A1</h4>
+                                <span class="position">Academia</span>
+                                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dolorum rem officia consequuntur omnis laborum libero.</P>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">20XX-20XX</span>
+                                <h4>Introducción a PHP 8 y MySQL</h4>
+                                <span class="position">Academia</span>
+                                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dolorum rem officia consequuntur omnis laborum libero.</P>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">20XX-20XX</span>
+                                <h4>Desarrollo de Apps</h4>
+                                <span class="position">Academia</span>
+                                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dolorum rem officia consequuntur omnis laborum libero.</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portafolio section-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portafolio</h2>
+
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter="*" class="filter-active">Todos</li>
+                    <li data-filter=".filter-app">Aplicaciones</li>
+                    <li data-filter=".filter-card">Tarjetas</li>
+                    <li data-filter=".filter-web">Sitios webs</li>
+                </ul>
+                <div class="portfolio_wrap-container">
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="assets/img/port3.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Web 3</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="assets/img/port3.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 1</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="assets/img/port3.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 2</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="assets/img/port3.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Card 2</h4>
+                                <p>Card</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="assets/img/port3.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Card 2</h4>
+                                <p>Card</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="assets/img/port3.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 3</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonios section-->
+        <section class="testimonial section">
+            <h2 class="section_title">Testimonios</h2>
+
+            <div class="testimonial_container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Id, ut dolore! Enim minus culpa cumque natus distinctio vero animi sint!</p>
+                        <div class="img_name">
+                            <img src="assets/img/testimonio1.jpg" alt="">
+                            <span class="name">Alejandra Godinez</span>
+                            <span class="post">Cliente</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Id, ut dolore! Enim minus culpa cumque natus distinctio vero animi sint!</p>
+                        <div class="img_name">
+                            <img src="assets/img/testimonio1.jpg" alt="">
+                            <span class="name">Ana Ballesteros</span>
+                            <span class="post">Cliente</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Id, ut dolore! Enim minus culpa cumque natus distinctio vero animi sint!</p>
+                        <div class="img_name">
+                            <img src="assets/img/testimonio1.jpg" alt="">
+                            <span class="name">Miriam Hdz</span>
+                            <span class="post">Cliente</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Id, ut dolore! Enim minus culpa cumque natus distinctio vero animi sint!</p>
+                        <div class="img_name">
+                            <img src="assets/img/testimonio1.jpg" alt="">
+                            <span class="name">Nicole B</span>
+                            <span class="post">Cliente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- servicios section-->
+        <section class="services section" id="services">
+            <h2 class="section_title">Servicios</h2>
+
+            <div class="services_container container grid">
+                <div class="services_item">
+                    <i class='bx bxs-grid-alt'></i>
+                    <h3 class="services_title">UI/UX <br>Designer</h3>
+                    <span class="services_button">
+                        Ver más <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">UI/UX Designer</h3>
+                            <p class="services_modal-description">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Magni, delectus?</p>
+                            <ul>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_item">
+                    <i class='bx bxs-grid-alt'></i>
+                    <h3 class="services_title">Frontend <br>Developer</h3>
+                    <span class="services_button">
+                        Ver más <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">Frontend Developer</h3>
+                            <p class="services_modal-description">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Magni, delectus?</p>
+                            <ul>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_item">
+                    <i class='bx bxs-grid-alt'></i>
+                    <h3 class="services_title">Backend <br>Developer</h3>
+                    <span class="services_button">
+                        Ver más <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">Backend Developer</h3>
+                            <p class="services_modal-description">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Magni, delectus?</p>
+                            <ul>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services_modal-info">Lorem ipsum dolor sit amet.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contacto section -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contáctame</h2>
+
+            <div class="contact_container container">
+                <div class="contact_content">
+                    <div class="inputs">
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="correo@academy.com" required>
+                    </div>
+                    <input type="password" placeholder="Contraseña">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Deja tu mensaje" required></textarea>
+                    <a href="#" class="btn">Enviar mensaje
+                        <ion-icon name="send-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer_bg">
+                <div class="footer_container container">
+                    <div class="main_footer">
+                        <div class="footer_social">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-instagram' ></i></a>
+                            <a href="#"><i class='bx bxl-youtube' ></i></a>
+                        </div>
+                        <h3>RC Academy</h3>
+                        <p>Diseño web simple y efectivo.</p>
+                    </div>
+                    <div class="footer_copy">&#169; RC Academy. Todos los derechos reservados</div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!--swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--mixitup js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <!--type js-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!--ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- main js -->
+    <script src="main.js"></script>
+
+</body>
+</html>
